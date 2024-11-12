@@ -92,3 +92,16 @@ main article p{
     font-size: 2vw;
     margin-right: 10px;
 }
+
+main table{
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+main table td, th{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
