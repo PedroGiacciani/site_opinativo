@@ -67,14 +67,15 @@ main{
     background-color: rgb(221, 221, 221);
     position: relative;
     margin: auto;
+    min-width: 100px;
     max-width: 1300px;
 }
 
 main img{
     display: inline-block;
-    margin: 20px;
+    margin: 15px;
     min-width: 20%;
-    max-width: 50%;
+    max-width: 45%;
 }
 
 main article{
@@ -97,8 +98,8 @@ main table{
     border-collapse: collapse;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
-
 
 main table td, th{
     border: 1px solid black;
