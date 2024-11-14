@@ -20,12 +20,8 @@ body{
 header{
     background-color: rgb(39, 39, 39);
     position: relative;
-    width: 100vw;
-
     min-height: 47px;
-    min-width: 50px;
-    max-width: 1500px;
-}
+}   
 
 header > h1{
     display: inline-block;
@@ -67,7 +63,6 @@ main{
     background-color: rgb(221, 221, 221);
     position: relative;
     margin: auto;
-    min-width: 100px;
     max-width: 1300px;
 }
 
@@ -75,7 +70,7 @@ main img{
     display: inline-block;
     margin: 15px;
     min-width: 20%;
-    max-width: 45%;
+    max-width: 40%;
 }
 
 main article{
@@ -94,15 +89,10 @@ main article p{
     margin-right: 10px;
 }
 
-main table{
-    border-collapse: collapse;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+main iframe{
+    display: block;
+    width: 60%;
+    margin-left: 22%;
 
-main table td, th{
-    border: 1px solid black;
-    padding: 10px;
-    text-align: center;
+    border: 2px solid black;
 }
